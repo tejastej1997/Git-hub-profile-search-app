@@ -9,6 +9,8 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'IBM Plex Mono', monospace;
+   #697c9a
+  #2b3442
   font-family: 'Rubik', sans-serif; */
 
 
@@ -19,7 +21,7 @@
   }
 
   body {
-      background-color: #030a1d;
+      background-color:  #14142f;
   }
 
   .container {
@@ -37,6 +39,9 @@
   .container__inner {
       padding: 0 24px;
   }
+
+ 
+
 
   .container__header{
     border: 1px solid white;
@@ -59,4 +64,24 @@
     font-size: 12px;
     color: white;
     
+  }
+
+  .container__searchbar{
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color:  #2b3442;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container__searchbar-input{
+    outline: none;
+    
+  }
+
+  .container__searchbar-btn{
+    margin-left: auto;
   }
