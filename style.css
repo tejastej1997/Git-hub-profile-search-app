@@ -53,8 +53,8 @@
   }
 
   .container__header-heading {
-    font-family: Poppins;
-    font-size: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
     font-weight: 600;
     color: white;
   }
@@ -90,7 +90,7 @@
   }
   .container__searchbar-input::placeholder{
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
 
   }
@@ -102,12 +102,62 @@
 
   .container__searchbar-btn {
     margin-left: auto;
-    padding: 5px 8px;
+    padding: 5px 12px;
     border-radius: 5px;
     background: #0D6EFD;
     border: none;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+  }
+
+  .container__result{
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e272e;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+  }
+
+  .container__details{
+    width: 100%;
+  }
+
+  .container__details--heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid white;
+  }
+
+  .container__result-icon{
+    height: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .conatiner__details-name{
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .container__details-joined-date{
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+  }
+
+  .container__details-username{
+    margin-top: 5px;
+    color: #0096FF;
+    font-family: 'IBM Plex Mono', monospace;
+
   }
