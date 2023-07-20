@@ -18,8 +18,6 @@ let bio = document.querySelector('.container__details-bio')
 let result = document.querySelector('.container__result')
 let month = ['jan', 'feb', 'mar', 'apr', 'may','jun', 'jul', 'aug', 'sept', 'oct', 'nov', 'dec']
 
-
-
 searchbtn.addEventListener('click', () => {
 
     result.classList.add('hide')
