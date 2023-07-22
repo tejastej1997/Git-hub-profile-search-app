@@ -49,5 +49,4 @@ searchbtn.addEventListener('click', () => {
             company.innerHTML = uname.company ? uname.company : "not given"
             link.innerHTML = uname.blog ? uname.blog : "not given"
         })
-
 })
