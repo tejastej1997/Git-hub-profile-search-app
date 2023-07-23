@@ -23,7 +23,6 @@ searchbtn.addEventListener('click', () => {
     result.classList.add('hide')
     if (result.classList.contains('hide')) {
         result.classList.remove('hide')
-        
     }
 
     fetch(`https://api.github.com/users/${userinput.value}`)
